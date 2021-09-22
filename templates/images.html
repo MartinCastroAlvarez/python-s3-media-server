@@ -1,0 +1,14 @@
+{% extends 'layout.html' %}
+
+{% block body %}
+	<h2>Upload new File</h2>
+	<form method=post enctype=multipart/form-data>
+		<input type=file name=file>
+	  	<input type=submit value=Upload>
+	</form>
+	<hr/>
+	<h2>Images</h2>
+	{% for image in images %}
+		<h3><a href="images/{{image}}">{{image}}</a></h3>
+	{% endfor %}
+{% endblock %}
