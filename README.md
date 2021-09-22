@@ -1,3 +1,3 @@
 # s3server
 
-![alt-image](./images/mac.jg)
+![alt-image](./images/mac.jpg)
